@@ -1,0 +1,103 @@
+*{
+    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html
+h1
+h2
+h3
+h4
+h5
+h6{
+    color: #0a4900;
+}
+
+input{
+    padding: 10px 12px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #0a4900;
+    line-height: 1.5rem;
+    color: #071c00;
+    font-size: 1rem;
+    float: initial;
+}
+
+body{
+    background: #d5fad4;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+HEADER
+ */
+header{
+    background: #0a4900;
+    height: 100px;
+}
+header *{
+;
+}
+
+header h1{
+    color: #b7fcb4;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+header ul{
+    color: #b7fcb4;
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+    float: right;
+}
+header ul li{
+    float: left;
+    position: relative;
+}
+header ul li a{
+    display: block;
+    font-size: 1rem;
+    padding: 5px;
+    width: 100%;
+}
+
+header ul li a:hover{
+    background: #071c00;
+    transition: 0.5s;
+    color: #b7fcb4;
+    width: 100%;
+    padding: 25px;
+}
+
+header ul li ul{
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 230px;
+    z-index: 1111;
+    display: none;
+}
+
+header ul li:hover ul{
+    display: block;
+}
+
+header ul li ul li{
+    width: 100%;
+}
+
+header ul li ul li a{
+    padding: 20px;
+    background: #0a4900;
+    color: #b7fcb4;
+}
+
+
+/*Панель поиска*/
